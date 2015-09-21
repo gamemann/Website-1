@@ -50,7 +50,7 @@
 		
 		<div class="container main">
 				<?php
-					// Non-mobile NavList
+					// Content
 					foreach ($tabs as $key => $value)
 					{
 						echo '<div class="content" id="' . $key . '-content">';
