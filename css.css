@@ -1,0 +1,135 @@
+body
+{
+	margin: 0;
+	background-color: #001D30;
+}
+
+.selected
+{
+	border-bottom: 2px solid #FCFCFC;
+	background-color: #00111D;
+}
+
+/* NavBar (Non-Mobile) */
+#navbar
+{
+	background-color: #001727;
+}
+
+#navlist
+{
+	height: 50px;
+	list-style-type: none;
+}
+
+.navitem
+{
+	display: inline-block;
+	line-height: 50px;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 2.0em;
+	color: #F7F7F7;
+	cursor: pointer;
+	font-family: Arial, sans-serif;
+}
+
+.navitem:hover
+{
+	background-color: #00111D;
+}
+
+/* NavBar (Mobile) */
+#navbarm
+{
+
+}
+
+#navlistm
+{
+	list-style-type: none;
+	background-color: #000E17;
+	width: 50%;
+	height: auto;
+	position: absolute;
+	border-radius: 0px 5px 5px 0px;
+	z-index: 2;
+}
+
+.navitemm
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 2.0em;
+	color: #F7F7F7;
+	cursor: pointer;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+.navitemm:hover
+{
+	background-color: #00111D;
+}
+
+.content
+{
+	padding: 15px;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	color: #FFF;
+	margin-top: 50px;
+	background-color: #001727;
+	border-radius: 5px 5px 5px 5px;
+	overflow-x: hidden;
+	border: 2px solid #000019;
+}
+
+.main
+{
+	position: relative;
+	height: 100%;
+}
+
+#pushNav, #pullNav, .contentArrowLeft, .contentArrowRight
+{
+	color: #FFF;
+	font-size: 2.0em;
+	padding: 2px;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.contentArrowLeft, .contentArrowRight
+{
+	display: inline-block;
+	position: absolute;
+	top: 80px;
+	z-index: 1;
+}
+
+.contentArrowLeft
+{
+	left: 0px;
+}
+
+.contentArrowRight
+{
+	right: 0px;
+}
+
+#pullNav
+{
+	position: fixed;
+}
+
+#pushNav
+{
+	
+}
+
+#pushNav:hover, #pullNav:hover
+{
+	cursor: pointer;
+}
